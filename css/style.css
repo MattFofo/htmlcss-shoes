@@ -15,6 +15,7 @@ nav{
     right: 0;
     margin-top: 2rem;
     z-index: 10;
+    
 }
 
 ul{
@@ -23,9 +24,9 @@ ul{
 
 nav li{
     display: inline-block;
-    width: 4em;
-    height: 4em;
-    line-height: 4em;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
     background-color: white;
     border-radius: 50%;
     text-align: center;
@@ -34,6 +35,8 @@ nav li{
 }
 
 nav a{
+    display: inline-block;
+    width: 100%;
     text-decoration: none;
     font-size: 1.8em;
     font-weight: 600;
@@ -72,16 +75,16 @@ nav a{
     text-align: center;
 }
 
-.section2{
+#section2{
     background-color: green;
     
 }
 
-.section3{
+#section3{
     background-color: yellow;
 }
 
-.section3 h2{
+#section3 h2{
     color: green;
     font-weight: bold;
 }
