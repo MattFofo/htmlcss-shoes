@@ -34,6 +34,10 @@ nav li{
     
 }
 
+a:visited{
+    color: inherit;
+}
+
 nav a{
     display: inline-block;
     width: 100%;
@@ -41,6 +45,18 @@ nav a{
     font-size: 1.8em;
     font-weight: 600;
     color: black;
+    
+    
+    
+    
+}
+
+li:hover{
+    box-shadow: 2px 2px 2px 2px;
+}
+
+li:active{
+    background-color: lightgray;
 }
 
 .container-content{
@@ -48,6 +64,8 @@ nav a{
     height: 100vh;
     background-color: red;
     position: relative;
+    
+    
 }
 
 .content{
@@ -77,6 +95,7 @@ nav a{
 
 #section2{
     background-color: green;
+    
     
 }
 
